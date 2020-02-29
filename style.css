@@ -22,6 +22,10 @@ body{
     display: flex;
     align-items: center;
 }
+.main{
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+}
 .dash{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -33,4 +37,11 @@ body{
     height: 300;  
     display: flex;
     align-items: center;
+}
+.hide{
+display:none;
+}
+
+.show{
+display:block;
 }
